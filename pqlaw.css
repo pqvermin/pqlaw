@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #777;
+}
+a:hover {
+  color: #933;
+}
+ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+#store-container {
+  display: none;
+}
+#display-container {
+  padding-top: 65px;
+}
+#search {
+  font-size: inherit;
+  width: 100%;
+}
+
+#navigation {
+  position: fixed;
+  width: 100%;
+  background-color: #e7e7e7;
+  font-size: 16px;
+}
+#navigation-menu {
+  padding-left: 0px;
+}
+#navigation-menu > li {
+  display: table-cell;
+  padding-left: 10px;
+}
+.item {
+  margin-top: 1px;
+  background-color: #fefefe;
+  border: solid 1px;
+  border-color: #e7e7e7;
+  border-radius: 5px;
+}
+.item-title {
+  font-weight: bold;
+  clear:both;
+  padding: 0px 10px 0px 10px;
+}
+.item-text {
+  padding: 5px 10px 0px 10px;
+}
+
+.item-menu {
+  text-align: right;
+  font-size: 14px;
+}
+.item-menu-btn {
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #777;
+}
+.item-edit-list {
+  margin-bottom: 5px;
+}
+.item-edit-list[data-selected=on] {
+  background-color: #e7e7e7;
+}
+.item-edit-title-input {
+  width: 70%;
+}
+.item-edit-textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  resize: vertical;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+/* 法令名：やや小さい灰色*/
+.highlight.articlename {
+  color: #999;
+  font-size: .85em;
+}
+/* 法令用語接続詞：小さい緑色*/
+.highlight.conjunction {
+  color: #9c9;
+  font-size: .7em;
+}
+
+
+.icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	fill: #777;
+}
+.icon:hover {
+  fill: #933;
+}
+.command {
+  float: right;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+<!--
+.item-editArticle input,
+.item-editArticle textarea,
+.item-editCollection input,
+.item-editCollection textarea,
+.item-entry select,
+.item-entry input,
+.item-entry textarea {
+  display: block;
+  border: none;
+  margin: 1px;
+  background-color: #f9f9f9;
+}
+
+.item-editArticle input,
+.item-editArticle textarea,
+.item-editCollection input,
+.item-editCollection textarea,
+.item-entry input,
+.item-entry textarea {
+  padding-left: 5px;
+  width: 100%;
+  resize: vertical;
+}
+.item-delete label {
+  font-weight: normal;
+}
+.item-delete input {
+  margin-right: 3px;
+}
+.item-collection ul,
+.item-contents ul,
+.item-delete ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+.editlink tr {
+   text-align: center;
+   font-size: .8em;
+   padding: 1em;
+}
+.editlink td:nth-child(4) {
+   text-align: left;
+}
+.editlink td:nth-child(-n+3) {
+   width: 45px;
+}
+.editlawlink tr {
+   text-align: center;
+   font-size: .8em;
+   padding: 1em;
+}
+.editlawlink td:nth-child(3) {
+   text-align: left;
+}
+.editlawlink td:nth-child(-n+2) {
+   width: 45px;
+}
+.notelist > div {
+   font-size: .8em;
+   padding: 0px;
+}
+.sortlist > div {
+   font-size: .8em;
+   padding: 1px;
+}
+-->
